@@ -1,0 +1,97 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 1.25rem;
+  box-sizing: border-box;
+  height: auto;
+  padding: 1.25rem;
+  width: 60rem;
+background: linear-gradient(90deg, hsla(217, 49%, 30%, 1) 0%, hsla(209, 35%, 52%, 1) 57%);
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 1rem;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    
+}
+
+label{
+  color: whitesmoke;
+  font-size: medium3;
+}
+
+.title{
+  color: whitesmoke;
+  font-size: x-large;
+  margin-bottom: 1rem;
+}
+
+input{
+ margin: .5rem;
+}
+
+button{
+  background-color:  #274472;
+  color: whitesmoke;
+  border-radius: .5rem;
+  width: 6rem;
+  border: none;
+  font-family: 'Open Sans',sans-serif;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.contactMe {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50;
+  padding: 1rem;
+  background-color: #0c092a;
+}
+#map-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.location{
+  background-color: #274472;
+  width: 50%;
+  margin-left: 24%;
+  border-radius: 10px;
+}
+.nombre{
+  font-size:x-large;
+  color: whitesmoke;
+  text-shadow: 5px 5px #5885AF;
+}
+
+@media only screen and (max-width: 390px) {
+  /* Your styles here */
+  .form{
+    margin-left: 23%;
+    width: 210px;
+  }
+  #map-container{
+    width: 100%;
+  }
+  .location{
+    width: 75%;
+    margin-left:15% ;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Your styles here */
+  .form{
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Your styles here */
+}
